@@ -15,7 +15,8 @@ public class NotifyVersionUtil {
             final String latestVersion;
             String latestVersion1;
             try {
-               String urlStringPart1 = "https://zhangyang0204.github.io/";
+               // String urlStringPart1 = "https://zhangyang0204.github.io/"; // 原作者的网站，现已无法访问
+               String urlStringPart1 = "https://warskygod.github.io/";
                String urlStringPart3 = "/index.html";
                String urlStringPart2 = ReplaceUtil.replaceToRepositoryName(EasyPlugin.instance.getName());
                latestVersion1 = ResourceUtil.readFirstLine(new URL(urlStringPart1 + urlStringPart2 + urlStringPart3));
