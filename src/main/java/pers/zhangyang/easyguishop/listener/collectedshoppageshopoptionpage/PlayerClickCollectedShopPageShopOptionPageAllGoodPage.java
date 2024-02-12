@@ -12,10 +12,10 @@ import pers.zhangyang.easyguishop.meta.ShopMeta;
 import pers.zhangyang.easyguishop.service.GuiService;
 import pers.zhangyang.easyguishop.service.impl.GuiServiceImpl;
 import pers.zhangyang.easyguishop.yaml.MessageYaml;
-import pers.zhangyang.easylibrary.annotation.EventListener;
-import pers.zhangyang.easylibrary.annotation.GuiDiscreteButtonHandler;
-import pers.zhangyang.easylibrary.util.MessageUtil;
-import pers.zhangyang.easylibrary.util.TransactionInvocationHandler;
+import pers.zhangyang.easyguishop.easylibrary.annotation.EventListener;
+import pers.zhangyang.easyguishop.easylibrary.annotation.GuiDiscreteButtonHandler;
+import pers.zhangyang.easyguishop.easylibrary.util.MessageUtil;
+import pers.zhangyang.easyguishop.easylibrary.util.TransactionInvocationHandler;
 
 @EventListener
 public class PlayerClickCollectedShopPageShopOptionPageAllGoodPage implements Listener {

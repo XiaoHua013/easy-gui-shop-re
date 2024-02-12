@@ -9,8 +9,6 @@ import pers.zhangyang.easyguishop.exception.*;
 import pers.zhangyang.easyguishop.meta.*;
 import pers.zhangyang.easyguishop.service.GuiService;
 import pers.zhangyang.easyguishop.yaml.SettingYaml;
-import pers.zhangyang.easylibrary.util.MessageUtil;
-import pers.zhangyang.easylibrary.yaml.MessageYaml;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;

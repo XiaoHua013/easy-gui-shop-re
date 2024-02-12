@@ -1,6 +1,6 @@
 package pers.zhangyang.easyguishop.yaml;
 
-import pers.zhangyang.easylibrary.base.YamlBase;
+import pers.zhangyang.easyguishop.easylibrary.base.YamlBase;
 
 public class GuiYaml extends YamlBase {
 

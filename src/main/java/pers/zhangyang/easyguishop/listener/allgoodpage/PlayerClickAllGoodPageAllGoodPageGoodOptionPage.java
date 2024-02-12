@@ -7,8 +7,8 @@ import pers.zhangyang.easyguishop.domain.AllGoodPage;
 import pers.zhangyang.easyguishop.domain.AllGoodPageGoodOptionPage;
 import pers.zhangyang.easyguishop.meta.GoodMeta;
 import pers.zhangyang.easyguishop.meta.ShopMeta;
-import pers.zhangyang.easylibrary.annotation.EventListener;
-import pers.zhangyang.easylibrary.annotation.GuiSerialButtonHandler;
+import pers.zhangyang.easyguishop.easylibrary.annotation.EventListener;
+import pers.zhangyang.easyguishop.easylibrary.annotation.GuiSerialButtonHandler;
 
 @EventListener
 public class PlayerClickAllGoodPageAllGoodPageGoodOptionPage implements Listener {

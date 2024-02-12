@@ -15,9 +15,10 @@
 
     <repositories>
         <repository>
-            <id>easy-library-repository</id>
-            <url>https://zhangyang0204.github.io/easy-library/repository</url>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
+
         <repository>
             <id>rosewood-repo</id>
             <url>https://repo.rosewooddev.io/repository/public/</url>
@@ -27,17 +28,22 @@
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
         </repository>
+
+        <repository>
+            <id>placeholderapi</id>
+            <url>https://repo.extendedclip.com/content/repositories/placeholderapi/</url>
+        </repository>
     </repositories>
 
 
     <dependencies>
-
         <dependency>
-            <groupId>pers.zhangyang</groupId>
-            <artifactId>easy-library</artifactId>
-            <version>1.0.0</version>
-            <scope>compile</scope>
+            <groupId>me.clip</groupId>
+            <artifactId>placeholderapi</artifactId>
+            <version>2.11.1</version>
+            <scope>provided</scope>
         </dependency>
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>

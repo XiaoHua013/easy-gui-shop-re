@@ -10,11 +10,11 @@ import pers.zhangyang.easyguishop.domain.Gamer;
 import pers.zhangyang.easyguishop.manager.GamerManager;
 import pers.zhangyang.easyguishop.meta.ShopMeta;
 import pers.zhangyang.easyguishop.yaml.MessageYaml;
-import pers.zhangyang.easylibrary.annotation.EventListener;
-import pers.zhangyang.easylibrary.annotation.GuiDiscreteButtonHandler;
-import pers.zhangyang.easylibrary.util.LocationUtil;
-import pers.zhangyang.easylibrary.util.MessageUtil;
-import pers.zhangyang.easylibrary.util.PermUtil;
+import pers.zhangyang.easyguishop.easylibrary.annotation.EventListener;
+import pers.zhangyang.easyguishop.easylibrary.annotation.GuiDiscreteButtonHandler;
+import pers.zhangyang.easyguishop.easylibrary.util.LocationUtil;
+import pers.zhangyang.easyguishop.easylibrary.util.MessageUtil;
+import pers.zhangyang.easyguishop.easylibrary.util.PermUtil;
 
 import java.util.List;
 

@@ -3,8 +3,8 @@ package pers.zhangyang.easyguishop;
 import org.bstats.bukkit.Metrics;
 import pers.zhangyang.easyguishop.service.BaseService;
 import pers.zhangyang.easyguishop.service.impl.BaseServiceImpl;
-import pers.zhangyang.easylibrary.EasyPlugin;
-import pers.zhangyang.easylibrary.util.TransactionInvocationHandler;
+import pers.zhangyang.easyguishop.easylibrary.EasyPlugin;
+import pers.zhangyang.easyguishop.easylibrary.util.TransactionInvocationHandler;
 
 public class EasyGuiShop extends EasyPlugin {
 

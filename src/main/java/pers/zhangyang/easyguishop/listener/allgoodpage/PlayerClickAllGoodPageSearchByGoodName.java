@@ -4,8 +4,8 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import pers.zhangyang.easyguishop.domain.AllGoodPage;
-import pers.zhangyang.easylibrary.annotation.EventListener;
-import pers.zhangyang.easylibrary.annotation.GuiDiscreteButtonHandler;
+import pers.zhangyang.easyguishop.easylibrary.annotation.EventListener;
+import pers.zhangyang.easyguishop.easylibrary.annotation.GuiDiscreteButtonHandler;
 
 @EventListener
 public class PlayerClickAllGoodPageSearchByGoodName implements Listener {

@@ -6,8 +6,8 @@ import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 import pers.zhangyang.easyguishop.domain.AllShopPage;
 import pers.zhangyang.easyguishop.yaml.MessageYaml;
-import pers.zhangyang.easylibrary.base.ExecutorBase;
-import pers.zhangyang.easylibrary.util.MessageUtil;
+import pers.zhangyang.easyguishop.easylibrary.base.ExecutorBase;
+import pers.zhangyang.easyguishop.easylibrary.util.MessageUtil;
 
 import java.util.List;
 

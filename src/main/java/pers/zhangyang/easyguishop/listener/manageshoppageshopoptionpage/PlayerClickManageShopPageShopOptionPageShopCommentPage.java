@@ -8,8 +8,8 @@ import org.bukkit.inventory.InventoryHolder;
 import pers.zhangyang.easyguishop.domain.AllShopCommentPage;
 import pers.zhangyang.easyguishop.domain.ManageShopPageShopOptionPage;
 import pers.zhangyang.easyguishop.meta.ShopMeta;
-import pers.zhangyang.easylibrary.annotation.EventListener;
-import pers.zhangyang.easylibrary.annotation.GuiDiscreteButtonHandler;
+import pers.zhangyang.easyguishop.easylibrary.annotation.EventListener;
+import pers.zhangyang.easyguishop.easylibrary.annotation.GuiDiscreteButtonHandler;
 
 @EventListener
 public class PlayerClickManageShopPageShopOptionPageShopCommentPage implements Listener {

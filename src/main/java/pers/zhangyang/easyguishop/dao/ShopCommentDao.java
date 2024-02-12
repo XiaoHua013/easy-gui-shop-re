@@ -3,7 +3,7 @@ package pers.zhangyang.easyguishop.dao;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import pers.zhangyang.easyguishop.meta.ShopCommentMeta;
-import pers.zhangyang.easylibrary.base.DaoBase;
+import pers.zhangyang.easyguishop.easylibrary.base.DaoBase;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

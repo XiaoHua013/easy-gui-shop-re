@@ -8,8 +8,8 @@ import org.bukkit.inventory.InventoryHolder;
 import pers.zhangyang.easyguishop.domain.ManageTradeRecordPage;
 import pers.zhangyang.easyguishop.domain.ManageTradeRecordPageTradeRecordOptionPage;
 import pers.zhangyang.easyguishop.meta.TradeRecordMeta;
-import pers.zhangyang.easylibrary.annotation.EventListener;
-import pers.zhangyang.easylibrary.annotation.GuiSerialButtonHandler;
+import pers.zhangyang.easyguishop.easylibrary.annotation.EventListener;
+import pers.zhangyang.easyguishop.easylibrary.annotation.GuiSerialButtonHandler;
 
 @EventListener
 public class PlayerClickManageTradeRecordPageManageTradeRecordPageTradeRecordOptionPage implements Listener {

@@ -10,10 +10,10 @@ import pers.zhangyang.easyguishop.meta.ShopMeta;
 import pers.zhangyang.easyguishop.service.GuiService;
 import pers.zhangyang.easyguishop.service.impl.GuiServiceImpl;
 import pers.zhangyang.easyguishop.yaml.GuiYaml;
-import pers.zhangyang.easylibrary.base.BackAble;
-import pers.zhangyang.easylibrary.base.GuiPage;
-import pers.zhangyang.easylibrary.base.SingleGuiPageBase;
-import pers.zhangyang.easylibrary.util.TransactionInvocationHandler;
+import pers.zhangyang.easyguishop.easylibrary.base.BackAble;
+import pers.zhangyang.easyguishop.easylibrary.base.GuiPage;
+import pers.zhangyang.easyguishop.easylibrary.base.SingleGuiPageBase;
+import pers.zhangyang.easyguishop.easylibrary.util.TransactionInvocationHandler;
 
 public class AllShopPageShopOptionPage extends SingleGuiPageBase implements BackAble {
     private ShopMeta shopMeta;

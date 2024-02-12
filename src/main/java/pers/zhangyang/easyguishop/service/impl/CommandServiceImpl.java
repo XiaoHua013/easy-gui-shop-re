@@ -11,8 +11,8 @@ import pers.zhangyang.easyguishop.exception.*;
 import pers.zhangyang.easyguishop.meta.*;
 import pers.zhangyang.easyguishop.service.CommandService;
 import pers.zhangyang.easyguishop.yaml.SettingYaml;
-import pers.zhangyang.easylibrary.util.ItemStackUtil;
-import pers.zhangyang.easylibrary.util.LocationUtil;
+import pers.zhangyang.easyguishop.easylibrary.util.ItemStackUtil;
+import pers.zhangyang.easyguishop.easylibrary.util.LocationUtil;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;

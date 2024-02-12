@@ -9,9 +9,9 @@ import org.bukkit.inventory.InventoryHolder;
 import pers.zhangyang.easyguishop.domain.ManageItemStockPage;
 import pers.zhangyang.easyguishop.yaml.MessageYaml;
 import pers.zhangyang.easyguishop.yaml.SettingYaml;
-import pers.zhangyang.easylibrary.annotation.EventListener;
-import pers.zhangyang.easylibrary.annotation.GuiDiscreteButtonHandler;
-import pers.zhangyang.easylibrary.util.MessageUtil;
+import pers.zhangyang.easyguishop.easylibrary.annotation.EventListener;
+import pers.zhangyang.easyguishop.easylibrary.annotation.GuiDiscreteButtonHandler;
+import pers.zhangyang.easyguishop.easylibrary.util.MessageUtil;
 
 @EventListener
 public class PlayerClickManageItemStockPageTeleportBankLocation implements Listener {

@@ -5,8 +5,8 @@ import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 import pers.zhangyang.easyguishop.domain.AllGoodPage;
 import pers.zhangyang.easyguishop.yaml.MessageYaml;
-import pers.zhangyang.easylibrary.base.FiniteInputListenerBase;
-import pers.zhangyang.easylibrary.util.MessageUtil;
+import pers.zhangyang.easyguishop.easylibrary.base.FiniteInputListenerBase;
+import pers.zhangyang.easyguishop.easylibrary.util.MessageUtil;
 
 public class PlayerInputAfterClickAllGoodPageSearchByGoodName extends FiniteInputListenerBase {
 

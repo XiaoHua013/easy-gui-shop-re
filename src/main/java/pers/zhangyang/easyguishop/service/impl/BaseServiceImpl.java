@@ -5,9 +5,9 @@ import org.bukkit.ChatColor;
 import pers.zhangyang.easyguishop.dao.*;
 import pers.zhangyang.easyguishop.meta.*;
 import pers.zhangyang.easyguishop.service.BaseService;
-import pers.zhangyang.easylibrary.dao.VersionDao;
-import pers.zhangyang.easylibrary.meta.VersionMeta;
-import pers.zhangyang.easylibrary.util.VersionUtil;
+import pers.zhangyang.easyguishop.easylibrary.dao.VersionDao;
+import pers.zhangyang.easyguishop.easylibrary.meta.VersionMeta;
+import pers.zhangyang.easyguishop.easylibrary.util.VersionUtil;
 
 import java.sql.DatabaseMetaData;
 import java.sql.PreparedStatement;
@@ -17,7 +17,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import static pers.zhangyang.easylibrary.base.DaoBase.getConnection;
+import static pers.zhangyang.easyguishop.easylibrary.base.DaoBase.getConnection;
 
 public class BaseServiceImpl implements BaseService {
 
