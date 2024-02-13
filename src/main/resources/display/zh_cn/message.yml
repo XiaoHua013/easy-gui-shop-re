@@ -4,10 +4,10 @@ message:
     #取消操作需要输入的，不可以是""，不填或者填错则采用默认值
     cancel: "取消"
 
-    #出售类型商店创建需要输入的，不可以是""，不填或者填错则采用默认值
+    #出售类型店铺创建需要输入的，不可以是""，不填或者填错则采用默认值
     sell: "出售"
 
-    #收购类型商店创建需要输入的，不可以是""，不填或者填错则采用默认值
+    #收购类型店铺创建需要输入的，不可以是""，不填或者填错则采用默认值
     buy: "收购"
 
     #评论时，评论完多行后提交需要输入的，不可以是""，不填或者填错则采用默认值
@@ -53,12 +53,12 @@ message:
       - "&b&l/egs setIconLimitTime <图标名字> <时间>    设置图标限购时间。"
       - "&b&l/egs resetIconLimitTime <图标名字>    重置图标限购时间。"
       - "&b&l/egs setIconSystem <图标名字> <true|false>    设置图标系统补货。"
-      - "&b&l/egs setShopSystem <商店名字> <true|false>    设置店铺系统补货。"
-      - "&b&l/egs setGoodSystem <商店名字> <商品名字> <true|false>    设置商品系统补货。"
+      - "&b&l/egs setShopSystem <店铺名字> <true|false>    设置店铺系统补货。"
+      - "&b&l/egs setGoodSystem <店铺名字> <商品名字> <true|false>    设置商品系统补货。"
       - "&b&l/egs setIconName <图标名字> <名字>    设置图标名字。"
       - "&b&l/egs deleteIcon <图标名字>    删除图标。"
-      - "&b&l/egs plusShopPopularity <商店名字> <数量>    增加店铺人气。"
-      - "&b&l/egs subtractShopPopularity <商店名字> <数量>    减少店铺人气。"
+      - "&b&l/egs plusShopPopularity <店铺名字> <数量>    增加店铺人气。"
+      - "&b&l/egs subtractShopPopularity <店铺名字> <数量>    减少店铺人气。"
     invalidArgument:
       - "&c&l无效参数 &f{argument}。"
     notItemInMainHand:
@@ -102,13 +102,13 @@ message:
     notNearBankLocationWhenDepositItemStock:
       - "&c&l请在货币银行坐标32范围内存入货币"
     notSetShopLocationWhenTakeGood:
-      - "&c&l请在取出商品前设置商店的实体坐标"
+      - "&c&l请在取出商品前设置店铺的实体坐标"
     notNearShopLocationWhenTakeGood:
-      - "&c&l请在商店实体坐标32范围内取出商品"
+      - "&c&l请在店铺实体坐标32范围内取出商品"
     notSetShopLocationWhenDepositGood:
-      - "&c&l请在存入商品前设置商店的实体坐标"
+      - "&c&l请在存入商品前设置店铺的实体坐标"
     notNearShopLocationWhenDepositGood:
-      - "&c&l请在商店实体坐标32范围内存入商品"
+      - "&c&l请在店铺实体坐标32范围内存入商品"
     notPermissionWhenSetGoodVaultPrice:
       - "&c&l缺少权限EasyGuiShop.setGoodVaultPrice"
     notPermissionWhenSetGoodItemPrice:
@@ -128,7 +128,7 @@ message:
     notEnoughItemStockWhenTradeGood:
       - "&c&l您没有足够的物品货币来购买这个商品。"
     notMoreItemStockWhenTradeGood:
-      - "&c&l商店没有足够的物品货币了。"
+      - "&c&l店铺没有足够的物品货币了。"
     notEnoughSpaceWhenTradeGood:
       - "&c&l您背包没有足够的空间来存放购买的物品。"
     notEnoughVaultWhenBuyIcon:
@@ -142,7 +142,7 @@ message:
     duplicateGoodWhenCreateGood:
       - "&c&l这个商品名字已经存在了，换个名字试试。"
     notExistGoodWhenDeleteGood:
-      - "&c&l没有在这个商店找到叫这个名字的商品。"
+      - "&c&l没有在这个店铺找到叫这个名字的商品。"
     goodNotEmpty:
       - "&c&l商品剩余不是空的，不能删除。"
     notEnoughGoodWhenDeposit:
@@ -156,11 +156,11 @@ message:
     itemStockNotEmpty:
       - "&c&l库存不是空的，不能删除"
     beyondShopNameLengthWhenCreateShop:
-      - "&c&l商店的名字长度已经超出了您能创建的长度。"
+      - "&c&l店铺的名字长度已经超出了您能创建的长度。"
     beyondShopNameLengthWhenSetShopName:
-      - "&c&l商店的名字长度已经超出了您能修改的长度。"
+      - "&c&l店铺的名字长度已经超出了您能修改的长度。"
     beyondShopAmount:
-      - "&c&l商店的数量已经超出了您能创建的数量。"
+      - "&c&l店铺的数量已经超出了您能创建的数量。"
     duplicateShopWhenCreateShop:
       - "&c&l已经有叫这个名字的店铺了，换个名字"
     shopNotEmpty:
@@ -196,13 +196,13 @@ message:
     notExistItemStockWhenDepositItemStock:
       - "&c&l不存在的货币库存。"
     duplicateShopCollectorInAllShopPageShopOptionPage:
-      - "&c&l重复的商店收藏。"
+      - "&c&l重复的店铺收藏。"
     duplicateShopCollectorInCollectedShopPageShopOptionPage:
-      - "&c&l重复的商店收藏。"
+      - "&c&l重复的店铺收藏。"
     notExistShopCollectorInCollectedShopPageShopOptionPage:
-      - "&c&l不存在的商店收藏。"
+      - "&c&l不存在的店铺收藏。"
     notExistShopCollectorInAllShopPageShopOptionPage:
-      - "&c&l不存在的商店收藏。"
+      - "&c&l不存在的店铺收藏。"
     notExistLocationInAllShopPageShopOptionPage:
       - "&c&l不存在的坐标。"
     notExistLocationInCollectedShopPageShopOptionPage:
@@ -343,7 +343,7 @@ message:
     teleportShopInCollectedShopPageShopOptionPage:
       - "&b&l您传送到店铺坐标。"
     toggleGoodType:
-      - "&b&l您切换了商店交易类型。"
+      - "&b&l您切换了店铺交易类型。"
     setGoodVaultPrice:
       - "&b&l您设置商品为了金币价格。"
     setGoodPlayerPointsPrice:
@@ -363,13 +363,13 @@ message:
     setShopLocation:
       - "&b&l您设置了实体店坐标。"
     addShopDescription:
-      - "&b&l您添加了商店描述。"
+      - "&b&l您添加了店铺描述。"
     setShopDescription:
-      - "&b&l您设置了商店描述。"
+      - "&b&l您设置了店铺描述。"
     removeShopDescription:
-      - "&b&l您删除了商店描述。"
+      - "&b&l您删除了店铺描述。"
     updateShopDescription:
-      - "&b&l您更新了商店描述。"
+      - "&b&l您更新了店铺描述。"
     takeItemStock:
       - "&b&l您取出了货币库存。"
     depositItemStock:
@@ -383,9 +383,9 @@ message:
     deleteShopComment:
       - "&b&l您删除评论成功。"
     createShop:
-      - "&b&l您创建商店成功。"
+      - "&b&l您创建店铺成功。"
     deleteShop:
-      - "&b&l您删除商店成功。"
+      - "&b&l您删除店铺成功。"
     deleteItemStock:
       - "&b&l您删除了货币库存。"
     createItemStock:

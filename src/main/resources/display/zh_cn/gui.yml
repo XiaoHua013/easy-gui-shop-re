@@ -9,7 +9,7 @@ gui:
   #gui中可替换的文字内容
   replace:
 
-    #当商店或者商品为系统补货时，将把库存显示为以下内容，不填则采用默认值
+    #当店铺或者商品为系统补货时，将把库存显示为以下内容，不填则采用默认值
     systemStock: "无限"
 
   #gui的一些选项
@@ -63,7 +63,7 @@ gui:
         materialName: "BOOKSHELF"
 
         #表示按钮的名称
-        displayName: "&b&l&n商店"
+        displayName: "&b&l&n店铺"
 
         #表示按钮的描述，lore中可以用的变量，除了{()}括起来的，都可以用在displayName中
         lore:
@@ -125,9 +125,9 @@ gui:
         customModelData: [ ]
       manageShopPage:
         materialName: "DIAMOND_PICKAXE"
-        displayName: "&b&l&n管理商店"
+        displayName: "&b&l&n管理店铺"
         lore:
-          - "&a&l前往管理我自己的商店"
+          - "&a&l前往管理我自己的店铺"
         amount: 1
         itemFlag:
           - "HIDE_DESTROYS"
@@ -154,7 +154,7 @@ gui:
         materialName: "COMPASS"
         displayName: "&b&l&n搜索店铺名字"
         lore:
-          - "&a&l按店铺的名称搜索商店"
+          - "&a&l按店铺的名称搜索店铺"
         amount: 1
         itemFlag:
           - "HIDE_DESTROYS"
@@ -163,7 +163,7 @@ gui:
         materialName: "COMPASS"
         displayName: "&b&l&n搜索店主"
         lore:
-          - "&a&l按店主的名字搜索商店"
+          - "&a&l按店主的名字搜索店铺"
         amount: 1
         itemFlag:
           - "HIDE_DESTROYS"
@@ -198,9 +198,9 @@ gui:
         customModelData: []
       collectShop:
         materialName: "LEVER"
-        displayName: "&b&l&n收藏商店"
+        displayName: "&b&l&n收藏店铺"
         lore:
-          - "&a&l收藏商店"
+          - "&a&l收藏店铺"
         amount: 1
         itemFlag:
           - "HIDE_DESTROYS"
@@ -209,16 +209,16 @@ gui:
         materialName: "TORCH"
         displayName: "&b&l&n取消收藏"
         lore:
-          - "&a&l取消收藏商店"
+          - "&a&l取消收藏店铺"
         amount: 1
         itemFlag:
           - "HIDE_DESTROYS"
         customModelData: []
       commentShop:
         materialName: "FEATHER"
-        displayName: "&b&l&n评论商店"
+        displayName: "&b&l&n评论店铺"
         lore:
-          - "&a&l点击评论商店"
+          - "&a&l点击评论店铺"
         amount: 1
         itemFlag:
           - "HIDE_DESTROYS"
@@ -227,7 +227,7 @@ gui:
         materialName: "ENCHANTED_BOOK"
         displayName: "&b&l&n查看评论"
         lore:
-          - "&a&l查看商店评论"
+          - "&a&l查看店铺评论"
         amount: 1
         itemFlag:
           - "HIDE_DESTROYS"
@@ -471,7 +471,7 @@ gui:
         customModelData: [ ]
       collectedShopPageShopOptionPage:
         materialName: "BOOKSHELF"
-        displayName: "&b&l&n商店"
+        displayName: "&b&l&n店铺"
         lore:
           - "&a&l店铺主人: &f{owner_name}"
           - "&b&l店铺名字: &f{name}"
@@ -509,7 +509,7 @@ gui:
         materialName: "COMPASS"
         displayName: "&b&l&n搜索店铺名字"
         lore:
-          - "&a&l按店铺的名称搜索商店"
+          - "&a&l按店铺的名称搜索店铺"
         amount: 1
         itemFlag:
           - "HIDE_DESTROYS"
@@ -518,7 +518,7 @@ gui:
         materialName: "COMPASS"
         displayName: "&b&l&n搜索店主"
         lore:
-          - "&a&l按店主的名字搜索商店"
+          - "&a&l按店主的名字搜索店铺"
         amount: 1
         itemFlag:
           - "HIDE_DESTROYS"
@@ -555,7 +555,7 @@ gui:
         materialName: "TORCH"
         displayName: "&b&l&n取消收藏"
         lore:
-          - "&a&l取消收藏商店"
+          - "&a&l取消收藏店铺"
         amount: 1
         itemFlag:
           - "HIDE_DESTROYS"
@@ -564,16 +564,16 @@ gui:
         materialName: "LEVER"
         displayName: "&b&l&n收藏"
         lore:
-          - "&a&l收藏商店"
+          - "&a&l收藏店铺"
         amount: 1
         itemFlag:
           - "HIDE_DESTROYS"
         customModelData: []
       commentShop:
         materialName: "FEATHER"
-        displayName: "&b&l&n评论商店"
+        displayName: "&b&l&n评论店铺"
         lore:
-          - "&a&l评论商店"
+          - "&a&l评论店铺"
         amount: 1
         itemFlag:
           - "HIDE_DESTROYS"
@@ -582,7 +582,7 @@ gui:
         materialName: "ENCHANTED_BOOK"
         displayName: "&b&l&n查看评论"
         lore:
-          - "&a&l查看商店评论"
+          - "&a&l查看店铺评论"
         amount: 1
         itemFlag:
           - "HIDE_DESTROYS"
@@ -924,7 +924,7 @@ gui:
         materialName: "PAPER"
         displayName: "&b&l&n重置图标"
         lore:
-          - "&a&l重置当前商店的图标"
+          - "&a&l重置当前店铺的图标"
         amount: 1
         itemFlag:
           - "HIDE_DESTROYS"
@@ -1117,9 +1117,9 @@ gui:
 
       collectedShopPage:
         materialName: "PAPER"
-        displayName: "&b&l&n收藏的商店"
+        displayName: "&b&l&n收藏的店铺"
         lore:
-          - "&a&l查看我自己收藏的商店"
+          - "&a&l查看我自己收藏的店铺"
         amount: 1
         itemFlag:
           - "HIDE_DESTROYS"
@@ -1144,7 +1144,7 @@ gui:
         customModelData: [ ]
       manageShopPageShopOptionPage:
         materialName: "BOOKSHELF"
-        displayName: "&b&l&n商店"
+        displayName: "&b&l&n店铺"
         lore:
           - "&a&l店铺主人: &f{owner_name}"
           - "&b&l店铺名字: &f{name}"
@@ -1180,18 +1180,18 @@ gui:
         customModelData: [ ]
       createShop:
         materialName: "ENDER_CHEST"
-        displayName: "&b&l&n创建商店"
+        displayName: "&b&l&n创建店铺"
         lore:
-          - "&a&l创建商店"
+          - "&a&l创建店铺"
         amount: 2
         itemFlag:
           - "HIDE_DESTROYS"
         customModelData: [ ]
       deleteShop:
         materialName: "DIAMOND_SWORD"
-        displayName: "&b&l&n删除商店"
+        displayName: "&b&l&n删除店铺"
         lore:
-          - "&a&l管理我自己的商店"
+          - "&a&l管理我自己的店铺"
         amount: 1
         itemFlag:
           - "HIDE_DESTROYS"
@@ -1200,7 +1200,7 @@ gui:
         materialName: "COMPASS"
         displayName: "&b&l&n搜索店铺名字"
         lore:
-          - "&a&l按店铺的名称搜索商店"
+          - "&a&l按店铺的名称搜索店铺"
         amount: 1
         itemFlag:
           - "HIDE_DESTROYS"
@@ -1217,9 +1217,9 @@ gui:
         customModelData: [ ]
       manageIconPage:
         materialName: "APPLE"
-        displayName: "&b&l&n管理这个商店图标"
+        displayName: "&b&l&n管理这个店铺图标"
         lore:
-          - "&a&l前往管理这个商店的图标"
+          - "&a&l前往管理这个店铺的图标"
         amount: 1
         itemFlag:
           - "HIDE_DESTROYS"
@@ -1228,7 +1228,7 @@ gui:
         materialName: "NAME_TAG"
         displayName: "&b&l&n设置名字"
         lore:
-          - "&a&l设置商店名字"
+          - "&a&l设置店铺名字"
         amount: 1
         itemFlag:
           - "HIDE_DESTROYS"
@@ -1271,45 +1271,45 @@ gui:
         customModelData: []
       updateShopDescription:
         materialName: "WRITTEN_BOOK"
-        displayName: "&b&l&n更新商店描述"
+        displayName: "&b&l&n更新店铺描述"
         lore:
-          - "&a&l点击更新商店描述"
+          - "&a&l点击更新店铺描述"
         amount: 1
         itemFlag:
           - "HIDE_DESTROYS"
         customModelData: []
       setShopDescription:
         materialName: "BOOK"
-        displayName: "&b&l&n设置商店描述"
+        displayName: "&b&l&n设置店铺描述"
         lore:
-          - "&a&l点击设置商店描述"
+          - "&a&l点击设置店铺描述"
         amount: 1
         itemFlag:
           - "HIDE_DESTROYS"
         customModelData: []
       resetShopDescription:
         materialName: "WRITTEN_BOOK"
-        displayName: "&b&l&n重置设置商店描述"
+        displayName: "&b&l&n重置设置店铺描述"
         lore:
-          - "&a&l重置设置商店描述"
+          - "&a&l重置设置店铺描述"
         amount: 1
         itemFlag:
           - "HIDE_DESTROYS"
         customModelData: []
       addShopDescription:
         materialName: "WRITTEN_BOOK"
-        displayName: "&b&l&n添加设置商店描述"
+        displayName: "&b&l&n添加设置店铺描述"
         lore:
-          - "&a&l点击添加设置商店描述"
+          - "&a&l点击添加设置店铺描述"
         amount: 1
         itemFlag:
           - "HIDE_DESTROYS"
         customModelData: []
       removeShopDescription:
         materialName: "BARRIER"
-        displayName: "&b&l&n删除设置商店描述"
+        displayName: "&b&l&n删除设置店铺描述"
         lore:
-          - "&a&l点击删除设置商店描述"
+          - "&a&l点击删除设置店铺描述"
         amount: 1
         itemFlag:
           - "HIDE_DESTROYS"
@@ -1318,7 +1318,7 @@ gui:
         materialName: "ENCHANTED_BOOK"
         displayName: "&b&l&n查看评论"
         lore:
-          - "&a&l点击查看商店评论"
+          - "&a&l点击查看店铺评论"
         amount: 1
         itemFlag:
           - "HIDE_DESTROYS"
@@ -1374,7 +1374,7 @@ gui:
           - "&e&l交易单价: &f{price}"
           - "&f&l交易类型: &f{good_type}"
           - "&a&l数量：{trade_amount}"
-          - "&b&l是否为系统商店：{good_system}"
+          - "&b&l是否为系统店铺：{good_system}"
         amount: 1
         itemFlag:
           - "HIDE_DESTROYS"
@@ -1390,7 +1390,7 @@ gui:
           - "&d&l交易时间: &f{trade_time}"
           - "&e&l交易税率: &f{trade_tax_rate}"
           - "&f&l交易类型: &f{good_type}"
-          - "&a&l是否为系统商店：{good_system}"
+          - "&a&l是否为系统店铺：{good_system}"
           - "&b&l查看详细信息"
         amount: 1
         itemFlag:

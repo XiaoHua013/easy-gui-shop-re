@@ -25,7 +25,7 @@ completer:
 
   #当输入了/easyGuiShop plusShopPopularity后将提示补全以下内容
   easyGuiShopPlusPopularity:
-    - "<商店名字>"
+    - "<店铺名字>"
 
   #当输入了/easyGuiShop plusShopPopularity 值后将提示补全以下内容
   easyGuiShopPlusPopularity$:
@@ -35,7 +35,7 @@ completer:
     - "<玩家名字>"
 
   easyGuiShopSubtractPopularity:
-    - "<商店>"
+    - "<店铺>"
   easyGuiShopSubtractPopularity$:
     - "<数量>"
   easyGuiShopDeleteIcon:

@@ -1,10 +1,10 @@
 setting:
 
-  #使用哪一套语言 可以在这里看到可选的语言https://github.com/ZhangYang0204/easy-gui-shop/tree/master/src/main/resources/display
-  #你也可以在https://github.com/ZhangYang0204/easy-gui-shop/tree/master/src/main/resources/display上传你使用的语言
+  #使用哪一套语言 可以在这里看到可选的语言https://github.com/WarSkyGod/easy-gui-shop/tree/master/src/main/resources/display
+  #你也可以在https://github.com/WarSkyGod/easy-gui-shop/tree/master/src/main/resources/display上传你使用的语言
   #此项修改后只有服务器重启或者使用其他插件重新安装此插件后才会生效
-  #Which language is used? If you want to find what you can use,please go to https://github.com/ZhangYang0204/easy-gui-shop/tree/master/src/main/resources/display
-  #You can also go to https://github.com/ZhangYang0204/easy-gui-shop/tree/master/src/main/resources/display to upload your language
+  #Which language is used? If you want to find what you can use,please go to https://github.com/WarSkyGod/easy-gui-shop/tree/master/src/main/resources/display
+  #You can also go to https://github.com/WarSkyGod/easy-gui-shop/tree/master/src/main/resources/display to upload your language
   #This modification will not take effect until the server is restarted or the plugin is reinstalled by other plugin
   display: "default"
 
@@ -76,7 +76,7 @@ setting:
 
 
   #热力值的大小 = 浏览量 × 浏览量系数 + 收藏数 × 收藏数系数 + 人气×人气系数
-  #商店按照热力值大小从前往后排序显示
+  #店铺按照热力值大小从前往后排序显示
   #Heat value size = Views × Views factor + Favorites × Favorites factor + Popularity × Popularity factor
   # Shops are displayed in descending order of popularity value
   hotValueCoefficient:
