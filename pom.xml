@@ -41,11 +41,6 @@
                         <configuration>
                             <relocations>
                                 <relocation>
-                                    <pattern>pers.zhangyang.easylibrary</pattern>
-                                    <!-- 这里替换你自己的包! -->
-                                    <shadedPattern>pers.zhangyang.easyguishop.other.pers.zhangyang.easylibrary</shadedPattern>
-                                </relocation>
-                                <relocation>
                                     <pattern>org.bstats</pattern>
                                     <shadedPattern>pers.zhangyang.easyguishop.other.org.bstats</shadedPattern>
                                 </relocation>
