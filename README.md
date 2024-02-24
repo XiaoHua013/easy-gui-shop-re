@@ -156,3 +156,6 @@ EasyGuiShop原作者仓库现已无法访问：[链接](https://github.com/Zhang
 ![image](images/图片展示13.png)
 ![image](images/图片展示14.png)
 ![image](images/图片展示15.png)
+
+## 感谢
+本插件使用了 [FoliaLib](https://github.com/handyplus/FoliaLib) 来做 **Folia** 兼容  
