@@ -12,7 +12,7 @@ EasyGuiShop原作者仓库现已无法访问：[链接](https://github.com/Zhang
 
 ## 这是什么
 - 一个简易的GUI商店插件
-- 支持 1.8-1.20.4 Bukkit/Spigot/Paper
+- 支持 1.8-1.20.4 Bukkit/Spigot/Paper/Folia
 - 支持 中/英文 语言
 - 支持 MySQL/SQLite 存储
 - 可使用 Vault经济/PlayerPoints点券/物品 进行交易
