@@ -1,5 +1,6 @@
 package pers.zhangyang.easyguishop.listener.allshoppageshopoptionpage;
 
+import cn.handyplus.lib.adapter.PlayerSchedulerUtil;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
@@ -58,8 +59,7 @@ public class PlayerClickAllShopPageShopOptionPageTeleportShopLocation implements
             }
         }
 
-
-        player.teleport(LocationUtil.deserializeLocation(shopMeta.getLocation()));
+        PlayerSchedulerUtil.syncTeleport(player, LocationUtil.deserializeLocation(shopMeta.getLocation()));
         gamer.setLastTeleportShopLocationTime(System.currentTimeMillis());
         MessageUtil.sendMessageTo(player, MessageYaml.INSTANCE.getStringList("message.chat.teleportShopLocationInAllShopPageShopOptionPage"));
     }

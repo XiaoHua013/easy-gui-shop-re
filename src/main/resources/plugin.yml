@@ -2,6 +2,7 @@ name: EasyGuiShop
 version: '${project.version}'
 main: pers.zhangyang.easyguishop.EasyGuiShop
 api-version: '1.13'
+folia-supported: true
 commands:
   EasyGuiShop:
     aliases: egs
