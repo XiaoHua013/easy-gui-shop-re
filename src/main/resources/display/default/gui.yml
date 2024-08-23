@@ -734,7 +734,7 @@ gui:
         displayName: "&b&l&n创建商品"
         lore:
           - "&a&l创建商品"
-        amount: 2
+        amount: 1
         itemFlag:
           - "HIDE_DESTROYS"
         customModelData: [ ]

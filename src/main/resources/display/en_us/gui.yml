@@ -734,7 +734,7 @@ gui:
         displayName: "&b&l&ncreateGood"
         lore:
           - "&a&l createGood"
-        amount: 2
+        amount: 1
         itemFlag:
           - "HIDE_DESTROYS"
         customModelData: [ ]
