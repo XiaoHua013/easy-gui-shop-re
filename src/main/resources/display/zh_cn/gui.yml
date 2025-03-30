@@ -10,7 +10,7 @@ gui:
   replace:
 
     #当店铺或者商品为系统补货时，将把库存显示为以下内容，不填则采用默认值
-    systemStock: "无限"
+    systemStock: "无限"  
 
   #gui的一些选项
   option:
@@ -40,15 +40,15 @@ gui:
     collectedShopPage: "&b&l&n我收藏的店铺"
     allShopCommentPage: "&b&l&n这家店铺的评论"
     manageShopCommentPage: "&b&l&n我对其他店铺的评论"
-    buyIconPage: "&b&l&n购买店铺图标"
+    buyIconPage: "&b&l&n&a购买店铺图标"
     manageIconPage: "&b&l&n我购买过的图标"
     buyIconPageIconOptionPage: "&b&l&n图标的操作选项"
     allGoodPage: "&b&l&n这家店铺的商品"
     manageItemStockPageItemStockOptionPage: "&b&l&n物品库存的操作选项"
     manageGoodPage: "&b&l&n管理店铺商品"
     manageGoodPageGoodOptionPage: "&b&l&n商品的操作选项"
-    manageItemStockPage: "&b&l&n管理物品货币库存"
-    allGoodPageGoodOptionPage: "&b&l&n商品的操作选项"
+    manageItemStockPage: "&b&l&n管理物品货币库存"  
+    allGoodPageGoodOptionPage: "&b&l&n商品的操作选项"  
     manageTradeRecordPage: "&b&l&n我的交易记录"
     manageTradeRecordPageTradeRecordOptionPage: "&b&l&n交易记录的操作选项"
     manageIconPageIconOptionPage: "&b&l&n图标的操作选项"
@@ -63,7 +63,7 @@ gui:
         materialName: "BOOKSHELF"
 
         #表示按钮的名称
-        displayName: "&b&l&n店铺"
+        displayName: "&b&l&n店铺"  
 
         #表示按钮的描述，lore中可以用的变量，除了{()}括起来的，都可以用在displayName中
         lore:
